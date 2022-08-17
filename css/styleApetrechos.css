@@ -1,0 +1,136 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  background: #fffb00;
+}
+
+header{
+  background: #00FF7F;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row; /*para deixar os itens do cabeçalho na horizontal*/
+  align-items: center; /*deixa os itens alinhados*/
+  justify-content: flex-start;
+  padding: 24px;
+  gap: 32px;  /*por estar no cabecalho, isso dará espaçamento entre o logo e o menu*/
+}
+
+.cabecalho_menu{
+  display: flex;
+  gap: 32px; /*por estar no cabecalho_menu, isso dará espaçamento entre os intens do menu*/
+}
+
+.item_menu{
+  font-family: ;
+  color: ;
+  font-size: ;
+  background-image: url(../animacao/animacao/gwd_preview_animacao/webcomponentsjs/);
+}
+
+.logo_cabecalho{
+  width: 40px;
+  height: 35px;
+}
+
+
+.armario{
+  margin-bottom: 350px;
+  border-top: 0.4px solid 	#4169E1
+}
+
+.prateleira{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 130px;
+  width: 1100px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgb(14, 0, 0);
+  background: #ffffff;
+  
+
+}
+
+.produtos{
+
+}
+
+.titulo_da_area{
+  text-align: center;
+}
+
+
+.prateleira1{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  align-items: center;
+  gap: 300px;
+}
+
+.controleps4{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.controlexbox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.headset{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.prateleira2{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  align-items: center;
+  gap: 300px;
+}
+
+.mause{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mini_figuras{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.preco{
+  color: orangered;
+}
+
+.imgprodutos{
+  width: 100px;
+  height: 120px;
+}
+
+footer{
+  background: #00FF7F;
+  text-align: center;
+}
+
+.footer{
+  height: 50px ;
+  border-top: 0.4px solid 	#4169E1
+}

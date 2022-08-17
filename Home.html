@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=""> <!-- Lembrar de escrever algo aqui-->
+  <title>Mega Game</title>
+  <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="cabecalho">
+    <img class="logo_cabecalho" src="imagens/logofinal.png" alt="Logo">
+    <nav class="cabecalho_menu">
+      <a class="item_menu" href="Home.html">Início</a>
+      <a class="item_menu" href="#comprar_por_genero">Comprar por Gênero</a>
+      <a class="item_menu" href="#comprar_por_estilo">Comprar por Estilo</a>
+      <a class="item_menu" href="Apetrechos.html">Apetrechos e Periféricos</a>
+      <a class="item_menu" href="Novidades.html">Novidades</a>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <main>
+      <section class="module parallax parallax-1">
+        <h2>Bem Vindo a</h2>
+        <h1>Mega Games</h1>
+        <img class="logo_parallax" src="imagens/logofinal.png" alt="Logo da mega games">
+      </section>
+
+      <section class="module content">
+        <div class="container">
+          <h1 class="titulo_conteudo-1">Mega Games</h1>
+          <h3 class="subtitulo_conteudo-1">Diversão e conteúdo Gamer é aqui!</h3>
+          <p class="paragrafo_conteudo1">Seja Bem vindo a Mega games ! Seu Site de Compras Gamer.<br>Cadastre-se aqui em baixo no formulario e receba notificações de descontos e lançamentos Imperdiveis!</p>
+
+          <img class="foto1" src="imagens/section1.jpg" alt="foto de duas pessoas jogando">
+
+          <div class="wrapper_real">
+            <a href="#modal_real">
+              formulario
+            </a>
+          </div>
+          
+          <p>Caso já tenha feito o cadastro ou simplesmente queira ir direto as compras, deslize para baixo para escolher comprar games por gênero ou por estilo, ou clique nas opções "Comprar por Gênero" ou "Comprar por Estilo" localizados no menu do cabeçalho .Caso queira comprar apetrechos ou periféricos, basta clicar na opção "Apetrechos e Periféricos" que está localizada também no menu do cabeçalho.</p>
+          
+
+  
+          <div id="modal_real" class="modal_real">
+            <div class="modal_mensagem">
+              <h1>Formulario</h1>
+              <form class="formulario" id="formulario">
+                <fieldset>
+        
+                  <div class="campo_do_formulario">
+                    <label for="nome">Nome completo:</label><br>
+                    <input class="formtexto" type="text" name="nome" id="nome" required>
+                  </div>
+        
+                  <div class="campo_do_formulario">
+                    <label for="nickname">Nickname/apelido(Opcional):</label><br>
+                    <input class="formtexto" type="text" name="nickname" id="nickname">
+                  </div>
+        
+                  <div class="campo_do_formulario">
+                    <label for="email">Email:</label><br>
+                    <input class="formtexto" type="email" nome="email" id="email" required>
+                  </div>
+                  <div class="msg"></div>
+                  <div class="campo_do_formulario">
+                    <label for="senha">Senha:</label><br>
+                    <input class="formsenha" type="password" nome="senha" id="senha" required>
+                  </div>
+        
+                  <div class="campo_do_formulario">
+                    <label for="confirmar_senha">Confirmar Senha:</label><br>
+                    <input class="formsenha" type="password" nome="confirmar_senha" id="confirmar_senha" required>
+                  </div>
+        
+                  <div class="campo_do_formulario">
+                    <label for="idade">Faixa Etaria:</label><br>
+                    <select id="idade">
+                      <option selected disabled value="">Selecione</option>
+                      <option>Menos de 10 anos</option>
+                      <option>10 a 11 anos</option>
+                      <option>12 a 13 anos</option>
+                      <option>14 a 15 anos</option>
+                      <option>16 e 17 anos</option>
+                      <option>Maior de 18anos</option>
+                    </select>
+                  </div>
+                  
+                  <div class="campo_de_notificacao">
+                    <label id="qual_notificacao">Você deseja receber notificações de qual campo ?</label><br><!-- Perguntar pro Lucca como faz para tornar esse campo obrigatório-->
+                    <label>
+                      <input type="radio" nome="notificação" value="promocoes de games" id="opcao1"> De promoções de Games
+                    </label><br>
+                    <label>
+                      <input type="radio" nome="notificacoes" value="notificacoes de novos jogos" id="opcao2"> De novos games
+                    </label><br>
+                    <label>
+                      <input type="radio" nome="notificacoes" value="promocoes de apetrechos e perifericos" id="opcao3"> De promoções de apetrechos e periféricos
+                    </label><br>
+                    <p>Clique no botão azul "X" logo a baixo para confirmar e enviar seus dados<br>
+                    Para voltar para página inicial, clique no botão vermelho "O" no canto superior direito.</p>
+                    <button class="botao" type="submit" id="validacao">X</button>
+                  </div>
+                  
+                </fieldset>
+              </form>
+              <a href="#" class="modal_finalizar"><button class="botao_finalizar" type="submit" id="botao_finalizar">O</button></a>
+            </div>
+          </div>
+              
+      </section>
+
+      <section class="module parallax parallax-2">
+
+      </section>
+
+      <section class="module content2">
+        <div class="container content2">
+          <h2><a name="comprar_por_genero">Comprar por Genero</a></h2>
+          <div class="container-1">
+            <a href="AcaoAventura.html">
+              <div class="card">
+                <div class="img">
+                  <img src="imagens/acaoeaventura.png" alt="imagem do genero">
+                </div>
+                <h4>Ação e Aventura</h4>
+              </div>
+            </a>
+  
+            <a href="Luta.html">
+              <div class="card">
+                <div class="img">
+                  <img src="imagens/luta.png" alt="imagem do genero">
+                </div>
+                <h4>Luta</h4>
+              </div>
+            </a>
+  
+            <a href="RPG.html">
+              <div class="card">
+                <div class="img">
+                  <img src="imagens/RPG.png" alt="imagem do genero">
+                </div>
+                <h4>RPG</h4>
+              </div>
+            </a>
+  
+            <div class="container-2">
+              <a href="Tiro.html">
+                <div class="card">
+                  <div class="img">
+                    <img src="imagens/tiro.png" alt="imagem do genero">
+                  </div>
+                  <h4>Tiro</h4>
+                </div>
+              </a>
+      
+              <a href="Esportes.html">
+                <div class="card">
+                  <div class="img">
+                    <img src="imagens/esportes.png" alt="imagem do genero">
+                  </div>
+                  <h4>Esportes</h4>
+                </div>
+              </a>
+  
+              <a href="Plataforma.html">
+                <div class="card">
+                  <div class="img">
+                    <img src="imagens/plataforma.png" alt="imagem do genero">
+                  </div>
+                  <h4>Plataforma</h4>
+                </div>
+              </a>
+  
+            </div>
+
+        </div>
+
+        <h2><a name="comprar_por_estilo">Comprar por Estilo</a></h2>
+        <div class="container-3">
+          <a href="Realista.html">
+            <div class="card">
+              <div class="img">
+                <img src="imagens/contemporaneo.png" alt="imagem do genero">
+              </div>
+              <h4>Realista</h4>
+            </div>
+          </a>
+
+          <a href="Fantasia.html">
+            <div class="card">
+              <div class="img">
+                <img src="imagens/fantasia.png" alt="imagem do genero">
+              </div>
+              <h4>Fantasia</h4>
+            </div>
+          </a>
+
+          <a href="Ficcao.html">
+            <div class="card">
+              <div class="img">
+                <img src="imagens/ficcao.png" alt="imagem do genero">
+              </div>
+              <h4>Ficção Científica</h4>
+            </div>
+          </a>
+
+      
+        </div>
+
+      </div>
+      </section>
+
+    </main>
+  </div>
+  
+  <main>
+
+  </main>
+  <footer class="rodape">
+    <div class="footer">
+    Mega Games
+    </div>
+  </footer>
+  
+    </div>
+  </header>
+  <script src="main.js"></script>
+</body>
+</html>
